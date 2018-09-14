@@ -48,7 +48,7 @@ security:
 logging:
   level.org.springframework.security: DEBUG
 
-spring.zipkin.baseUrl: http://localhost:9411
+spring.zipkin.baseUrl: http://localhost:9966
 spring.zipkin.enabled: true
 spring:
   sleuth:

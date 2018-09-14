@@ -1,18 +1,9 @@
-server.port: 9411
+server.port: 9966
 spring:
   rabbitmq:
     host: localhost
-  datasource:
-    schema: classpath:/zipkin-schema.sql
-    url: jdbc:mysql://127.0.0.1/test
-    username: root
-    password: 123456
-    initialize: false
-    continueOnError: true
+    
   sleuth:
     enabled: false
   application:
     name: cloud-zipkin
-zipkin:
-  store:
-    type: mem
